@@ -19,7 +19,7 @@ function App() {
           })
         }
         {featPupId && (
-          <div>
+          <div className="featPup">
             <h2>{featuredPup.name}</h2>
             <ul>
               <li>Age: {featuredPup.name}</li>
